@@ -1,0 +1,15 @@
+一.java入门
+1.计算机语言发展史:
+机器语言->汇编语言->高级语言
+2.java的特性和优势:
+跨平台/可移植性(一次编译,导出运行) 安全性 面向对象 简单性 高性能 分布式 多线程 健壮性
+3.java应用程序的运行机制
+计算机高级语言的类型主要有编译型和解释型两种,而java是两种语言的结合
+先用文本编辑器编写java源程序,后缀为.java->
+再利用编译器(javac)将源程序编译成字节码文件,后缀为.class->
+最后利用虚拟机(解释器,java)解释执行
+源文件(*.java)->java编译器(javac)->字节码.class文件->jre(类装载器->字节码校验器->解释器)->系统平台
+4.JVM,JRE和JDK区别
+JVM(Java Virtual Machine)就是一个虚拟的用于执行bytecode字节码的"虚拟计算机"。
+JRE(Java Runtime Environment)包含:java虚拟机,库函数,运行java应用程序必须的文件。
+JDK(Java Development Kit):包含JRE,以及编译器和调试器等用于程序开发的文件。
